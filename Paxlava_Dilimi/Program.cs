@@ -21,13 +21,13 @@ class Program
             }
             Console.WriteLine();
         }
-        for (int i = size; i >= 1; i--)
+        for (int i = size; i >= 0; i--)
         {
             for (int k = (size - 1); k >= i; k--)
             {
                 Console.Write(" ");
             }
-            for (int j = 0; j < i; j++)
+            for (int j = 0; j <= i; j++)
             {
                 Console.Write("* ");
 
